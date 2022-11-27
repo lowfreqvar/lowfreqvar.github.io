@@ -1,7 +1,7 @@
 title: LowFreqVar 
 description: Low-frequency variant calling in Clostridium beijerinickii
-# theme: just-the-docs
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
+# remote_theme: just-the-docs/just-the-docs
 
 url: https://lowfreqvar.github.io
 
@@ -13,7 +13,8 @@ heading_anchors: true
 
 callouts_level: quiet # or loud
 callouts:
-  highlight:
+  hint:
+    title: Hint
     color: yellow
   important:
     title: Important
