@@ -49,6 +49,8 @@ Reference genome and annotation files can be obtained from the links below:
 
 # Dependencies
 
+The simplest way to obtain all the tools or dependencies for variant calling/filtering is from the bioconda channel.
+
 {: .important }
 > Before being able to create the Conda environment you will need to install conda for your specific OS.
 >
@@ -78,7 +80,7 @@ to create the environment containing all the dependencies run:
 conda env create -f lowfreqvar.yml
 ```
 
-and to activate the environment run:
+and to activate the environment containing all the tools run:
 
 ```bash
 conda activate lowfreqvar
