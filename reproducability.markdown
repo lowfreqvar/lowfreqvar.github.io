@@ -8,10 +8,26 @@ permalink: /reproducability/
 
 ```mermaid
 graph LR;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    fq[FASTQ]
+    ref[FASTA]
+    jc["Intersect Variant Calls"]
+    subgraph "Read Processing"
+    fq -->|cutadapt|tfq["Trimmed Reads"]
+    end
+    subgraph Alignment
+    tfq -->|bwa-mem|al["BAM"]
+    ref --> al
+    end
+    subgraph "Variant Calling"
+    al -->|freebayes|fb["Freebayes Calls"]
+    al -->|lofreq|lf["LoFreq Calls"]
+    fb -->|bcftools|jc
+    lf -->|bcftools|jc
+    end
+    subgraph "Variant Filtering"
+    jc -->|rustynuc|fjc["Joint Calls"]
+    fjc --> hf{"Heatmap Filtering"} --> hv["Heatmap Variants"]
+    end
 ```
 
 # Data
