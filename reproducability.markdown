@@ -4,9 +4,19 @@ title: Reproducability
 permalink: /reproducability/
 ---
 
+# Workflow Overview
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 # Data
 
-**FASTQ** files are deposited on ENA and you can access them using the button bellow:
+**FASTQ** files are deposited on ENA and you can access them using the button bellow (N.B *data will be released upon publication*):
 
 <center>[PRJEB51942](https://www.ebi.ac.uk/ena/browser/view/PRJEB51944){: .btn .btn-purple }</center>
 
@@ -21,7 +31,7 @@ Genome annotation files can be obtained from here:
 <center>[GTF][gtf-link]{: .btn .btn-purple }</center>
 
 
-# Data
+# Dependencies
 
 [fasta-link]: ftp://ftp.ensemblgenomes.org/pub/bacteria/release-46/fasta/bacteria_3_collection/clostridium_beijerinckii_ncimb_8052/dna/Clostridium_beijerinckii_ncimb_8052.ASM1696v1.dna_sm.toplevel.fa.gz
 
