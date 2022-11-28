@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Reproducability
-permalink: /reproducability/
+title: Reproducibility
+permalink: /reproducibility/
 ---
 
 # Workflow Overview

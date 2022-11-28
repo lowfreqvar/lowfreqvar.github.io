@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 ---
 
 # Motivation
@@ -14,5 +15,5 @@ To investigate the mechanistic and evolutionary basis of degeneration we combine
 
 These approaches revealed spo0A, the master regulator gene involved in spore and solvent formation, to be key to the degeneration process in this strain.
 
-Further information available at [Humphreys et al. link(when published)](#1)
+Further information available at [Humphreys et al. (link available when published)](#1)
 
