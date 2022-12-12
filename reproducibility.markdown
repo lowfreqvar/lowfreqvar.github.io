@@ -32,10 +32,10 @@ graph LR;
 
 # Data
 
-Raw reads  are deposited on ENA and can be accessed using the link below (N.B *data will be released upon publication*):
+Raw reads  are deposited on ENA and can be accessed using the link below:
 
 <span style="align-items: center; justify-content: center; display: flex; padding: 10px">
-[PRJEB51942](https://www.ebi.ac.uk/ena/browser/view/PRJEB51944){: .btn .btn-purple }
+[PRJEB51942](https://www.ebi.ac.uk/ena/browser/view/PRJEB51942){: .btn .btn-purple }
 </span>
 
 Reference genome and annotation files can be obtained from the links below:
